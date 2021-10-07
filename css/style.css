@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+body {
+  background-color: rgba(214, 225, 255, 255);
+}
+
+.main {
+  margin: auto;
+  width: 23%;
+  border-radius: 15px;
+  height: 520px;
+  margin-top: 110px;
+  box-shadow: 0 10px 2px -2px #c6d0f6;
+  background-color: white;
+}
+img {
+  max-width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+h2 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #2b354c;
+}
+p {
+  color: #9fa2ab;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 5px;
+}
+.annual {
+  background-color: #f8f9fe;
+  margin: auto;
+  width: 260px;
+  height: 60px;
+  border-radius: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+.music {
+  border-radius: 50%;
+  background-color: #dee5fd;
+  width: 20px;
+  height: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  position: absolute;
+  top: 12px;
+  display: inline-block;
+}
+
+.plan {
+  display: inline-block;
+  position: absolute;
+  left: 75px;
+  top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.year {
+  color: #d2d6e2;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+.aplan {
+  color: #3a4251;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+.change {
+  color: #625ca4;
+  text-decoration: underline;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: small;
+  position: absolute;
+  left: 210px;
+  top: 20px;
+}
+
+.pro {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 260px;
+  height: 35px;
+  background-color: #382ae1;
+  color: #dfd9f6;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 11px 2px -2px rgba(225, 221, 250, 0.7);
+  cursor: pointer;
+}
+.can {
+  color: #a0a4af;
+  background-color: white;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: small;
+  margin-top: 10px;
+  cursor: pointer;
+}
